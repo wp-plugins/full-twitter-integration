@@ -13,7 +13,7 @@ Display any kind of tweets with just a few simple steps.
 
 == Description ==
 
-## Getting Started ##
+= Getting Started =
 
 With this plugin you will be able to display tweets all around your site with just a few simple steps. You don't need any programming skills for this. Trust me, it's really simple ;)
 
@@ -22,7 +22,7 @@ Just choose where do you want to display the tweets.
 Will they be in a Widget? In a post content? Or in your code?
 
 
-## Install the Plugin ##
+= Install the Plugin =
 
 Download the plugin and move the "full-twitter-integration" folder into the "/plugins" Wordpress folder.
 
