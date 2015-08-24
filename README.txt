@@ -30,6 +30,16 @@ Access to your Admin Panel and click the menu on the sidebar where it says "Full
 
 In the main screen you will need to Log in with Twitter to use all the tools the plugin provides.
 
+1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
+the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
+directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
+(or jpg, jpeg, gif).
+
+2. This is the second screen shot
+
+Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
+Titles are optional, naturally.
+
 == Installation ==
 
 1. Download the plugin and move the "full-twitter-integration" folder into the "/plugins" Wordpress folder.
