@@ -22,23 +22,71 @@ Just choose where do you want to display the tweets.
 Will they be in a Widget? In a post content? Or in your code?
 
 
+
+
+
 = Install the Plugin =
 
 Download the plugin and move the "full-twitter-integration" folder into the "/plugins" Wordpress folder.
 
 Access to your Admin Panel and click the menu on the sidebar where it says "Full Twitter integration" to get started.
 
-In the main screen you will need to Log in with Twitter to use all the tools the plugin provides.
+In the main screen you will need to **Log in with Twitter** to use all the tools the plugin provides.
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
 
-2. This is the second screen shot
 
-Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
+
+
+= Display tweets in a widget, couldn't be easier =
+
+Simple as any other [Wordpress Widget]("http://codex.wordpress.org/WordPress_Widgets"), just go Appearance>Widgets and choose the most suitable FTI Widget for you, or choose them all!
+
+You will be able to set the **Number of tweets to display**, and the option to hide/show the **User profile image** and the **Tweets images**.
+
+
+
+
+= Tweets in your content, just add a shorcode = 
+
+Use the [Wordpress Shortcodes]("https://en.support.wordpress.com/display-posts-shortcode/") to display the tweets on your Posts/Pages and filter them as you wish. Set a **Hashtag** or a **Username** and set the values (optional) to customize the Tweets. Just add the Shortcode to your post/page content and that's all!
+
+This shortcode sample will display PearlJam's Tweets with their profile images and limit them to 5. 
+` [fti-list username="PearlJam" limit="5" profile_image="true"] `
+
+And here it's getting Tweets with the hashtag "#Wordpress" including the images content of each and with a medium size. 
+`[fti-list hashtag="Wordpress" images="true" images_size="medium"] `
+
+**Shortcode parameters** 
+
+*   hashtag (Required) - [yourHashtag] Default: none. 
+*   username (Required) - [aTwitterUserName] Default: none. 
+* images (Optional) - [true/false] Default: false. 
+* images_size (Optional) - [thumb/small/medium/large] Default: thumb. 
+* profile_image (Optional) - [true/false] Default: false.
+
+
+
+
+= Display Tweets in your code =
+
+We have a really simple API to get the tweets you want in your code. Customize the parameters and get an Array with the Tweets (objects).
+
+**These are our functions:**
+
+* get_tweets_by_hashtag($hashtag, $limit) 
+* get_tweets_by_user($user_name, $limit) 
+* get_user_tweets($user_name, $limit) 
+* get_timeline_tweets($user_name) 
+* get_user_data($user_name) 
+* get_my_data() 
+
+The **$user_name** should be the Twitter screen name, the one with @. Eg: PaulMcCartney
+
+
+
+
+
+Read the [Full Documentation](http://full-twitter-integration.com/ "FTI Documentation")
 
 == Installation ==
 
