@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 === Full Twitter Integration  ===
 Contributors: agrimbautomas
 Donate link: http://full-twitter-integration.com/
@@ -23,8 +13,22 @@ Display any kind of tweets with just a few simple steps.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+## Getting Started ##
 
+With this plugin you will be able to display tweets all around your site with just a few simple steps. You don't need any programming skills for this. Trust me, it's really simple ;)
+
+Just choose where do you want to display the tweets.
+
+Will they be in a Widget? In a post content? Or in your code?
+
+
+## Install the Plugin ##
+
+Download the plugin and move the "full-twitter-integration" folder into the "/plugins" Wordpress folder.
+
+Access to your Admin Panel and click the menu on the sidebar where it says "Full Twitter integration" to get started.
+
+In the main screen you will need to Log in with Twitter to use all the tools the plugin provides.
 
 == Installation ==
 
@@ -44,6 +48,7 @@ The Search API is not complete index of all Tweets, but instead an index of rece
 the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
 directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
 (or jpg, jpeg, gif).
+
 2. This is the second screen shot
 
 Here's a link to [WordPress](http://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
