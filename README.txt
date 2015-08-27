@@ -3,7 +3,7 @@ Contributors: agrimbautomas
 Donate link: http://full-twitter-integration.com/
 Tags: twitter, widgets, integration, social, api, tweets
 Requires at least: 3.0.1
-Tested up to: 3.4
+Tested up to: 4.3
 Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,7 +14,7 @@ Display any kind of tweet with just a few simple steps and no programming skills
 
 = Getting Started =
 
-With this plugin you will be able to display tweets all around your site with just a few simple steps. You don't need any programming skills for this.
+With this plugin you will be able to display tweets all around your site with just a few simple steps. You don't need any programming or technical skills for this.
 Trust me, it's really simple ;)
 
 Just choose where do you want to display the tweets.
